@@ -6,4 +6,5 @@ scikit_learn==1.2.2
 seaborn==0.13.2
 statsmodels==0.14.0
 streamlit==1.30.0
-streamlit==1.49.0
+
+
