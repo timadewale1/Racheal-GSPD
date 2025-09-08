@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 
 #load malaria datasets
 
-malaria = pd.read_excel(r"C:\Users\timad\OneDrive\Desktop\programming\Racheal\GPSDD_-Project\Benue_Malaria.xls")
+malaria = pd.read_excel("Benue_Malaria.xls")
 
 
 # In[4]:
@@ -42,7 +42,8 @@ print(malaria.head())
 
 # loading the climate data 
 
-climate = pd.read_excel(r"C:\Users\timad\OneDrive\Desktop\programming\Racheal\GPSDD_-Project\Climate Data.xlsx")
+climate = pd.read_excel("Climate Data.xlsx")
+
 #printing the first few rows
 print(climate.head())
 
