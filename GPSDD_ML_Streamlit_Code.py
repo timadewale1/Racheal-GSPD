@@ -613,6 +613,8 @@ X = df.drop(
 
 )
 
+X = pd.get_dummies(X, drop_first=True)
+
 
 # In[51]:
 
