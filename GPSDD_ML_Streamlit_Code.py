@@ -608,7 +608,9 @@ X = df.drop(
         'Year_y', 
         'Date'
     ], 
-    axis=1
+    axis=1,
+    errors='ignore'  # <-- Add this
+
 )
 
 
