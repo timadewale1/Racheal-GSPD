@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 
 #load malaria datasets
 
-malaria = pd.read_excel(r"C:\Users\USER\Downloads\Benue_Malaria.xls")
+malaria = pd.read_excel(r"C:\Users\timad\OneDrive\Desktop\programming\Racheal\GPSDD_-Project\Benue_Malaria.xls")
 
 
 # In[4]:
@@ -42,7 +42,7 @@ print(malaria.head())
 
 # loading the climate data 
 
-climate = pd.read_excel(r"C:\Users\USER\Downloads\Climate Data.xlsx")
+climate = pd.read_excel(r"C:\Users\timad\OneDrive\Desktop\programming\Racheal\GPSDD_-Project\Climate Data.xlsx")
 #printing the first few rows
 print(climate.head())
 
@@ -638,7 +638,8 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=0.2,random_sta
 X_train.shape, X_test.shape
 
 
-# ### 
+# ### 
+
 # Create an Evaluate Function to give all metrics after model Training
 
 # In[55]:
