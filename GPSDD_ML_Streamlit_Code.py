@@ -631,6 +631,8 @@ data = pd.concat([X, Y], axis=1).dropna()
 X = data.drop(columns=['positive_by RDT'])
 Y = data['positive_by RDT']
 
+X = X.astype(float)
+
 
 # In[53]:
 
